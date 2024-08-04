@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Automatic Subway Ticketing System built using Verilog.srcs/sources_1/new/TicketingControl.v" \
+"../../../../Automatic Subway Ticketing System built using Verilog.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
